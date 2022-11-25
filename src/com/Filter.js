@@ -4,7 +4,7 @@ import "../com/style.css";
 
 const Filters = () => {
   const {
-    productState: { byStock, byFastdelivery, searchQ, sort },
+    productState: { byStock, byFastdelivery, sort },
     productDis,
   } = CartState();
 
